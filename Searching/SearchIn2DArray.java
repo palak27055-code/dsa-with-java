@@ -1,6 +1,5 @@
 package Searching;
 import java.util.*;
-import java.lang.reflect.Array;
 
 public class SearchIn2DArray {
     public static void main(String[] args) {
