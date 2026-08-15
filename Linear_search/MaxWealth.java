@@ -1,4 +1,4 @@
-package Searching;
+package Linear_search;
 import java.util.*;
 public class MaxWealth {
     public static void main(String[] args) {
@@ -11,9 +11,16 @@ public class MaxWealth {
         
     }
     static int maximumwealth(int[][] accounts){
-        int ans = Integer.MIN_VALUE;
+        // store the maximum wealth
+        int ans = Integer.MIN_VALUE; 
+
+        // go through each account 
         for( int[] ints : accounts){
+
+            // store the sum of each account
             int sum =0;
+
+            // add each value of the account to the sum
             for(int anInt : ints){
                 sum += anInt;
             }
