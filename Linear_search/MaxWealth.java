@@ -1,4 +1,5 @@
 package Linear_search;
+// https://leetcode.com/problems/richest-customer-wealth/
 import java.util.*;
 public class MaxWealth {
     public static void main(String[] args) {
