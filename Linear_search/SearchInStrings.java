@@ -3,7 +3,7 @@ package Linear_search;
 public class SearchInStrings {
     public static void main(String[] args) {
         String name = "palak";
-        System.out.println(search(name, 'a'));
+        System.out.println(search(name, 'o'));
 
     }
 
@@ -41,5 +41,7 @@ public class SearchInStrings {
         return -1;
 
     }
+
+    
 
 }

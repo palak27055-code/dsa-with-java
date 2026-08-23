@@ -49,4 +49,12 @@ public class EvenDigits {
       return (int) (Math.log10(num) + 1);
    }
 
+   static int even2(int[] arr){
+      int count = 0;
+      for (int num : arr) {
+         int rem = num % 10;
+         
+      }
+   }
+
 }
