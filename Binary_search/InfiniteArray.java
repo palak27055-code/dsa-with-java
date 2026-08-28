@@ -1,5 +1,5 @@
 package Binary_search;
-// https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
+// https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/ 
 public class InfiniteArray {
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
@@ -30,9 +30,7 @@ public class InfiniteArray {
         while (start <= end) {
             int mid = start +(end-start)/2;
 
-            if(target < arr[mid]){
-                end = mid -1;
-            }else if(target > arr[mid]){
+            if(target > arr[mid]){
                 start = mid+1;
             }else{
                 return mid;
