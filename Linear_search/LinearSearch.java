@@ -1,5 +1,5 @@
 package Linear_search;
-import java.util.*;
+
 public class LinearSearch {
     public static void main(String[] args) {
         int[] nums = {76, 85, 83, 28, 29, 24, 95, 56, 87};
